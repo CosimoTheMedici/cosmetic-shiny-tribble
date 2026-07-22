@@ -43,6 +43,7 @@ export default function App() {
       <Routes>
         {/* Public */}
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<LoginPage />} />
 
         {/* Protected — all authenticated users */}
         <Route path="/" element={<PrivateRoute><AppLayout /></PrivateRoute>}>
