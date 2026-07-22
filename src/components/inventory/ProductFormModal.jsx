@@ -65,7 +65,8 @@ export default function ProductFormModal({ product, categories, onClose }) {
   }
 
   return (
-    <div className="fixed inset-0 bg-black/40 z-40 flex items-center justify-center p-2 sm:p-4 overflow-y-auto">
+    // <div className="fixed inset-0 bg-black/40 z-40 flex items-center justify-center p-2 sm:p-4 overflow-y-auto">
+    <div className="fixed inset-0 bg-black/40 z-40 flex items-start justify-center p-2 sm:p-4 overflow-y-auto">
       <ToastContainer toasts={toasts} dismiss={dismiss} />
 
       <div
